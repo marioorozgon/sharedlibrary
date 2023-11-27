@@ -1,4 +1,3 @@
-@NonCPS
 def parseXml(String xmlContent) {
 def parsedXml = new XmlSlurper().parseText(xmlContent)
 // Se sacan las mÃ©tricas directamente del elemento testsuites
